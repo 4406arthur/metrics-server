@@ -29,7 +29,7 @@ spec:
           - --metric-resolution=15s
         resources:
           requests:
-            cpu: 100m
+            cpu: 50m
             memory: 200Mi
         ports:
         - name: https
